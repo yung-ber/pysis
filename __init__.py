@@ -12,7 +12,7 @@ def install(self, name):
 		self.wiz.destroy()
 		print('PySIS installed the software')
 	except:
-		raise error('failed to install file from'+site'!'\
+		raise error('failed to install file from'+site+'!'\
 )
 class wizard:
 	def __init__(self, website, name='new'):
